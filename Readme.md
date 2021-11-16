@@ -7,3 +7,8 @@ set-ExecutionPolicy RemoteSigned
 反复报错Do you want to install 'webpack-cli' (yes/no): 
 npm install webpack-cli -g
 解决了问题
+
+具体模式是index.js为入口，将一个应用挂载到根节点
+
+使用npm run build 可以编译网站
+在dist里的html中查看
